@@ -1,0 +1,331 @@
+
+body
+{
+margin:0px;
+/* margem- fomata o espaço da borda para fora */
+padding:0px;
+/* preenchimento- formata o espaço da borda para dentro*/
+background: #000000 url(images/imagem_header.jpg) repeat-x left top;
+/* verde do header da página */ /* preenchimento- formata o espaço da borda para dentro */
+font: 13px Arial, Helvetica, sans-serif;
+/* fonte- formata a familia da fonte aplicada a um elemento*/
+color: #ffffff;
+    /* cor do texto */
+}
+h1, h2, h3
+{
+    margin: 0px;
+        /* margem entre os cabeçalhos */
+}
+h1
+{
+    font-size:1.7em;
+    /* tamanho do cabeçalho */
+}
+h2
+{
+    font-size:1.5em;
+    /* tamanho do cabeçalho */
+}
+h3
+{
+    font-size:1.5em;
+    /* tamanho do cabeçalho */
+}
+p, ol, ul
+{
+    margin-left: 10px; /* define a margem esquerda */
+    margin-right: 10px; /* define a margem direita */
+    margin-bottom:1.5em;
+    /* define a margem entre as linhas */
+    line-height: 180%;
+    /* altura da linha - ajusta a altura da linha */
+}
+
+a
+{
+    color: #d88634;
+    /* define a cor dos links */
+    text-decoration:none;
+    /* decoração do texto - Define a decoração do texto para os elementos. Podem ser none (nenhum), underline (linha de baixo), overline (linha de cima) ou line-through (linha através) */
+}
+a:hover
+{
+    text-decoration:overline;
+    /* define a decorão do link quando o cursor do mouse estiver sobre ele */
+    color: #d88634;
+}
+
+a img 
+{
+    border:none;
+    /* link com imagem não terá borda */
+}
+
+/* header */
+
+#header
+{
+    background: #000000 url(images/Imagem_logo.gif.gif) no-repeat center;
+    height: 340px;
+    width: 1370px;
+}
+
+#header a
+{
+    text-decoration: none;
+    /* decoração do link na cabeça da página */
+    color :#d88634
+    /* cor dos links na cabeça da página */
+}
+
+/* logo */
+
+#logo
+{
+  position: absolute;
+  top: 8px ;
+  left: 250px;
+  width: 170px;
+  color: #000000;
+}
+
+#logo h1 #logo p
+{
+    margin: 0px;
+     /* define a margem */
+    line-height: normal;
+    /* altura da linha - ajusta a altura da linha */
+    font-weight: normal;
+    /* espessura da fonte - ajusta a espessura da fonte */
+    color: #000000; /* define a cor */
+} 
+
+#logo h1
+{
+    padding: 200px px 10px 10px;  /* preenchimento- formata o espaço da borda para dentro */
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Menu */
+
+#menu
+{
+    background: #000000;
+    position: absolute;
+    top: 290px ;
+    left: 743px;
+    width: 380px;
+    padding: 2px 0;
+    border-top: 0.5px #000000 solid;
+    /* tamanho e cor da borda de cima do menu */
+}
+
+#menu ul 
+{
+    margin: 0px 0 0 0; /* define a margem */
+    padding: 0px 0 0 0; /* preenchimento- formata o espaço da borda para dentro */
+    list-style: none;
+    /* muda o estilo da lista não ordenada */
+    line-height: normal;
+}
+
+#menu li
+{
+    float: left;
+    /* define de que forma vão flutuar as linhas do menu */
+    margin: 0px 0px 0px 10px;     /* define a margem */
+}
+
+#menu a
+{
+    display: block;
+    /* permite informar como o elemento aparecerá em uma linha */
+    width:auto;
+    height: 27px;
+    padding: 9px 20px 0px 20px; /* preenchimento - formata o espaço da borda para dentro */
+    background: #000000 no-repeat right 50%; 
+    /* trecosinho no meio do menu */
+}
+
+#menu a:hover
+{
+    text-decoration: underline;
+}
+
+#menu .first
+{
+    background: none;
+    /* configuração do home */
+}
+
+#menu .active a
+{
+    /* formatação pessoal */
+}
+
+/* page */
+
+#page
+{
+    width: 900px;
+    margin: 0px auto; /* define a margem */
+    padding: 15px 80px; /* preenchimento- formata o espaço da borda para dentro */
+}
+
+/* content */
+
+#content
+{
+    float:right;
+    width:570px;
+   
+}
+
+.post
+{
+    background: ffffff;
+    margin: 0px 0px 0px 0px; /* define a margem */
+}
+
+.post .title
+{
+    background: #d88634;
+    margin: 0px; /* define a margem */
+    padding: 0px 0px 0px 0px; /* preenchimento- formata o espaço da borda para dentro */
+    border-bottom: none solid 0px;
+}
+
+.post .title a
+{
+    background: #d88634;
+    color: orange;
+   /* define a cor */
+}
+
+.post .entry
+{
+    /* formatar no final se necessário */
+}
+
+.post .meta 
+{
+    font-weight: bold
+}
+
+.post .byline 
+{ 
+    margin: 10px /* define a margem */
+}
+
+/* sidebra */
+#sidebar
+{
+    float: left;
+    width: 300px;
+}
+
+#sidebar-bgtop
+{
+    height: 2px
+}
+
+#sidebar-bgbtm
+{
+    height:3px;
+}
+
+#sidebar-content
+{
+    padding: 20px; /* preenchimento- formata o espaço da borda para dentro */
+}
+
+#sidebar ul
+{
+    padding: 0px;  /* preenchimento- formata o espaço da borda para dentro */
+    margin: 0px; /* define a margem */
+    list-style: none;
+}
+
+#sidebar li ul 
+{
+    background: #d88634;
+    margin-bottom: 1em;
+    padding-left: 10px;
+    list-style: none;
+}
+
+#sidebar h2
+{
+    padding: 4px 15px; /* preenchimento- formata o espaço da borda para dentro */
+    background: #000000;
+    font-size: 1.2em;
+    /* tamanho da fonte - especifica o tamanho de uma fonte aplicada a um elemento*/
+    color: #d88634; /* define a cor */
+}
+
+#sidebar a 
+{
+    text-decoration:none;
+    color:#ffffff; /* define a cor */
+}
+
+#sidebar a:hover
+{
+    text-decoration: underline;
+}
+
+/* search */
+
+#search
+{
+    /* sem formatação */
+}
+
+#search form
+{
+    margin-bottom: 1em;
+    padding: 0px; /* preenchimento- formata o espaço da borda para dentro */
+}
+
+#search fieldset
+{
+    margin: 0px; /* define a margem */
+    padding: 0px; /* preenchimento- formata o espaço da borda para dentro */
+    border: none;
+}
+
+#search #s
+{
+    width: 194px
+}
+
+/* footer*/
+
+#footer
+{
+    clear: both;
+    width: 880px;
+    height: 50px;
+    margin: 0px auto 0px auto; /* define a margem */
+    margin-left: 245px;
+    color:#FFFFFF; /* define a cor */
+    background:#d88634;
+}
+
+#footer p
+{
+margin: 0px; /* define a margem */
+padding: 20px 30px 0px 0px; /* preenchimento- formata o espaço da borda para dentro */
+text-align: center;
+line-height: normal;
+font-size: smaller;
+}
+#footer a
+{
+color: #d88634; /* define a cor */
+}
